@@ -14,6 +14,7 @@
 		A63AA0D02CB3C631003965F7 /* RickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AA0CE2CB3C631003965F7 /* RickModel.swift */; };
 		A63AA0D62CB3C653003965F7 /* RickViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AA0D42CB3C653003965F7 /* RickViewModel.swift */; };
 		A63AA0DC2CB3C930003965F7 /* RickAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AA0DA2CB3C930003965F7 /* RickAPI.swift */; };
+		A658F62E2CB44126006AD194 /* RickTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658F62D2CB44126006AD194 /* RickTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A63AA0CE2CB3C631003965F7 /* RickModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickModel.swift; sourceTree = "<group>"; };
 		A63AA0D42CB3C653003965F7 /* RickViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickViewModel.swift; sourceTree = "<group>"; };
 		A63AA0DA2CB3C930003965F7 /* RickAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAPI.swift; sourceTree = "<group>"; };
+		A658F62D2CB44126006AD194 /* RickTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickTableViewCell.swift; sourceTree = "<group>"; };
 		A6C3B5612CB2BD0200BE6C93 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				A63AA0CB2CB3C62D003965F7 /* HomeViewController.swift */,
+				A658F62D2CB44126006AD194 /* RickTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A658F62E2CB44126006AD194 /* RickTableViewCell.swift in Sources */,
 				A63AA0B82CB3C331003965F7 /* AppDelegate.swift in Sources */,
 				A63AA0D02CB3C631003965F7 /* RickModel.swift in Sources */,
 				A63AA0CD2CB3C62D003965F7 /* HomeViewController.swift in Sources */,

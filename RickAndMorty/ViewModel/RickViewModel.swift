@@ -8,7 +8,15 @@
 import Foundation
 
 class RickViewModel {
-   
-    
-    
+    private var api = RickAPI()
+    var character: RickModel?
+
+    func fetchCharacter(completion: @escaping () -> Void) {
+        api.fetchCharacter { [weak self] character in
+            if let character = character {
+                self?.character = character
+                completion()
+            }
+        }
+    }
 }
