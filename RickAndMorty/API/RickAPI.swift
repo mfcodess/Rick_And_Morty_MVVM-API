@@ -7,8 +7,9 @@
 
 import Foundation
 
-class RickAPI {
-    private let baseURL = "https://rickandmortyapi.com/api/character/48" 
+final class RickAPI {
+    
+    private let baseURL = "https://rickandmortyapi.com/api/character/48"
 
     func fetchCharacter(completion: @escaping (RickModel?) -> Void) {
         guard let url = URL(string: baseURL) else {

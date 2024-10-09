@@ -7,10 +7,8 @@
 
 import Foundation
 
-///Это типо ключи для JSON Decoder.
 // MARK: - RickModel
 struct RickModel: Codable {
     let name: String?
     let image: String?
-    let url: String
 }
